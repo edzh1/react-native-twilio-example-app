@@ -1,0 +1,7 @@
+rootProject.name = 'ReactNativeTwilioExampleApp'
+include ':react-native-twilio-programmable-voice'
+project(':react-native-twilio-programmable-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-twilio-programmable-voice/android')
+include ':react-native-firebase'
+project(':react-native-firebase').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase/android')
+
+include ':app'
